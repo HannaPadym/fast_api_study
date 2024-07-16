@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fastapi"
+version = "0.1.0"
+description = ""
+authors = ["HannaPadym <120955272+HannaPadym@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uvicorn = "^0.30.1"
+SQLAlchemy = "^2.0.31"
+aiosqlite = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
